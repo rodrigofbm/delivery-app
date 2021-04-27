@@ -10,7 +10,7 @@ const app = axios.create({
   //headers: {'X-Custom-Header': 'foobar'}
 });
 
-const Login = () => {
+const Login = ({ navigation }) => {
   const [email, onChangeEmail] = useState('usuario@teste.com');
   const [password, onChangePassword] = useState('usuario_test_@@');
   const [errors, onChangeErrors] = useState([]);
@@ -24,7 +24,7 @@ const Login = () => {
     try {
       const token = await AsyncStorage.getItem('@USER_TOKEN');
       if(token !== null) {
-        alert('user on')
+        navigation.replace('Main');
       }
     } catch(e) {
       // error reading value
@@ -52,7 +52,7 @@ const Login = () => {
     }).then( async (resp) => {
       try {
         await AsyncStorage.setItem('@USER_TOKEN', resp.data.token);
-        //next screen
+        navigation.replace('Main');
       } catch (e) {
         // saving error
       }
