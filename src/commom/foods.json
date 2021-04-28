@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Hamburgão",
+    "price": 19.99,
+    "pictureUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1a/01/95/8d/ze-colmeia.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Duplo Hamburger",
+    "price": 25.99,
+    "pictureUrl": "https://img.freepik.com/fotos-gratis/vista-lateral-duplo-cheeseburger-com-rissois-de-carne-grelhada-queijo-e-folha-de-alface-entre-bolos-de-hamburguer_141793-4883.jpg"
+  },
+  {
+    "id": 3,
+    "name": "O Mais Pedido",
+    "price": 15.99,
+    "pictureUrl": "https://www.hellmanns.com.br/content/dam/unilever/global/recipe_image/112/11240/112402-default.jpg/_jcr_content/renditions/cq5dam.web.800.600.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Triplo Monster",
+    "price": 29.99,
+    "pictureUrl": "https://revistaazul.voeazul.com.br/wp-content/uploads/2020/05/Dia_do_Hamburger_Burger-X_Triplo_Burger_X.jpg"
+  }
+]
